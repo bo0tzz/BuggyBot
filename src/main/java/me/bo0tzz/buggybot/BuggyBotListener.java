@@ -42,6 +42,8 @@ public class BuggyBotListener implements Listener {
                 .results(r)
                 .build();
 
+        System.out.println(response.toString());
+
         event.getQuery().answer(BuggyBot.getBot(), response);
     }
 }
